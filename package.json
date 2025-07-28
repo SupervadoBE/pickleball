@@ -1,0 +1,17 @@
+{
+  "name": "skorboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "cd backend && npm install && cd ../frontend && npm install",
+    "build": "npm run build --prefix frontend",
+    "start": "node backend/server.js"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
